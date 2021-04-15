@@ -7,13 +7,13 @@ public class OperasiString {
         String kota = "Yogyakarta";
         System.out.println(kota);
 
-        char[] uniskaChar = { 'U', 'N', 'I', 'S', 'K', 'A' };
-        String uniskaString = new String(uniskaChar);
-        System.out.println(uniskaString);
+        char[] pembahasanChar = { 'P', 'E', 'M', 'B', 'A', 'H', 'A', 'S', 'A', 'N' };
+        String pembahasanString = new String(pembahasanChar);
+        System.out.println(pembahasanString);
 
         System.out.println(kota.toUpperCase());
         System.out.println(kota.toLowerCase());
-        System.out.println(uniskaString.substring(0,3));
-        System.out.println(uniskaString.substring(3));
+        System.out.println(pembahasanString.substring(2,6));
+        System.out.println(pembahasanString.substring(5));
     }
 }
