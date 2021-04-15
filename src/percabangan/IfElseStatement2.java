@@ -6,7 +6,7 @@ public class IfElseStatement2 {
         double totalBelanja = 5000;
 
         if(totalBelanja<uangBelanja){ //false
-            System.out.println("uang pas, bulik hati-hati kolo di rampok");
+            System.out.println("uang cukup, bulik hati-hati kolo di rampok");
         }else{
             System.out.println("uang kurang, bulik kerumah minta duit pulang");
         }
